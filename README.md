@@ -10,8 +10,8 @@ I work on physical AI at Intel, mostly training robot policies from human demons
 
 ### Current work
 
-- [Physical AI Studio](https://github.com/open-edge-platform/physical-ai-studio): an imitation learning framework for robots. You record demonstrations, train a policy (ACT, SmolVLA, Pi0.5 or anything in LeRobot) and export it to OpenVINO, ONNX or ExecuTorch.
-- [physicalai](https://github.com/openvinotoolkit/physicalai): the runtime for deploying those policies. It handles cameras, robot interfaces, inference and the control loop, and currently supports SO-101 and WidowX-AI arms.
+- [Physical AI Studio](https://github.com/open-edge-platform/physical-ai-studio): an imitation learning framework for robots. You record demonstrations, train a policy (ACT, SmolVLA, Pi0.5, XR0, MolmoACT2, RLDX-1 and anything in LeRobot) and export it to OpenVINO, ONNX or ExecuTorch.
+- [physicalai](https://github.com/openvinotoolkit/physicalai): the runtime for deploying those policies. It handles cameras, robot interfaces, inference and the control loop, and currently supports SO-101, Trossen WidowX-AI, Seeed Studio B601 and many other arms.
 
 I gave a talk on this stack at PyTorch Conference Europe 2026: *Full-Stack PyTorch Robotics VLA, from Data to Edge via ExecuTorch/OpenVINO*.
 
@@ -19,7 +19,7 @@ I gave a talk on this stack at PyTorch Conference Europe 2026: *Full-Stack PyTor
 
 - [Anomalib](https://github.com/open-edge-platform/anomalib): a deep learning library for visual anomaly detection, which I created and maintained at Intel.
 - [Geti](https://github.com/open-edge-platform/geti): Intel's platform for training computer vision models with less data.
-- [GANomaly](https://github.com/samet-akcay/ganomaly) and [Skip-GANomaly](https://github.com/samet-akcay/skip-ganomaly): code for my ACCV 2018 and IJCNN 2019 papers. Both models are now part of Anomalib.
+- [GANomaly](https://github.com/samet-akcay/ganomaly) and [Skip-GANomaly](https://github.com/samet-akcay/skip-ganomaly): code for my papers. The models are now part of Anomalib.
 
 ### Selected papers
 
